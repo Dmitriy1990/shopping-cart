@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  padding: 20px 0;
+  background-color: olive;
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.logo {
+}
+
+.nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  &__link {
+    color: #fff;
+    font-size: 20px;
+    transition: 0.3s;
+    text-decoration: none;
+    &:hover {
+      color: darkturquoise;
+    }
+  }
+}
