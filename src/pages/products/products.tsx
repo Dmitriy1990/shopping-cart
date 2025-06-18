@@ -1,5 +1,11 @@
-import React from "react";
+import { ProductsComponent } from "@/features/products/products";
+import { Layout } from "@/shared/components/layout/layout";
+
 
 export const Products = () => {
-  return <div>Products</div>;
+  return (
+    <Layout>
+      <ProductsComponent />
+    </Layout>
+  );
 };

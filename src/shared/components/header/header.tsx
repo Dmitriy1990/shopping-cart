@@ -17,6 +17,9 @@ export const Header = () => {
             <Link to={routes.products} className={styles.nav__link}>
               Products
             </Link>
+            <Link to={routes.cart} className={styles.nav__link}>
+              Cart
+            </Link>
           </nav>
         </div>
       </div>
