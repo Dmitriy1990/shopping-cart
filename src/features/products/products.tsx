@@ -17,6 +17,7 @@ export function ProductsComponent() {
   const products = useAppSelector((state) => state.products.products);
   return (
     <main className="page">
+      <p>Hello</p>
       <ul className={styles.products}>
         {Object.values(products).map((product) => (
           <li key={product.id}>
