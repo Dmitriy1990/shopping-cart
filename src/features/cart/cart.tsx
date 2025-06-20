@@ -76,7 +76,9 @@ export const Cart = () => {
           <tr>
             <td>Total</td>
             <td></td>
-            <td className={styles.total}>${totalPrice}</td>
+            <td className={styles.total} data-testid="total">
+              ${totalPrice}
+            </td>
             <td></td>
           </tr>
         </tfoot>

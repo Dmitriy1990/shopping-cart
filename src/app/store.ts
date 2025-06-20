@@ -11,7 +11,7 @@ export const store = configureStore({
   reducer,
 });
 
-export function getStoreWithState(preloadedState?: RootState) {
+export function getStoreWithState(preloadedState?: RootState) { 
   return configureStore({ reducer, preloadedState });
 }
 
